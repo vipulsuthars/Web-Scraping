@@ -6,20 +6,20 @@ Parsing HTML: Once the HTML content is fetched, tools like BeautifulSoup are emp
 
 Extracting Data: After parsing, specific data such as text, links, images, or other elements can be extracted based on the requirements of the scraping project.
 
-#Use Cases: We scraping serves various purposes:
+# Use Cases: We scraping serves various purposes:
 
     Data Collection: Gathering data from multiple sources to create datasets for analysis or research.
     Monitoring: Keeping track of changes on websites, such as price fluctuations on e-commerce platforms or updates on news websites.
     Automation: Automating repetitive tasks like filling out forms or extracting information periodically.
 
-#Legal and Ethical Considerations: While web scraping offers powerful capabilities, it's essential to respect legal and ethical guidelines:
+# Legal and Ethical Considerations: While web scraping offers powerful capabilities, it's essential to respect legal and ethical guidelines:
 
     Terms of Service: Websites often have terms of service that dictate how their data can be accessed and used. Violating these terms can lead to legal consequences.
     Robots.txt: Websites may have a robots.txt file that specifies which parts of the site can be accessed by automated tools. Adhering to these guidelines is crucial.
     Data Privacy: Ensure that sensitive or personal data is handled responsibly and in compliance with data protection laws.
     Rate Limiting: Implementing rate limiting in your scraper helps prevent overwhelming the website's servers and ensures fair use of resources.
 
-#Techniques for Politeness: To scrape responsibly:
+# Techniques for Politeness: To scrape responsibly:
 
     User Agents: Use appropriate user-agent strings in your HTTP requests to identify your scraper.
     Respect Robots.txt: Check the robots.txt file of the website and abide by its rules.
